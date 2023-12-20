@@ -1,0 +1,25 @@
+*
+{
+padding: 0;
+margin: 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus{
+  color: #280101;
+  font-weight: bolder;
+  background: linear-gradient(to right, #d6d5d5, #e5e3e3);
+  border-radius: 10px;
+  transition: ease-in;
+  opacity: 0.2; 
+}
+ 
+  /* Hover effect for NavDropdown items in the dropdown */
+.navbar-dark .navbar-nav .nav-item.dropdown:hover .dropdown-menu a:hover {
+  color: #9b3b3b;
+/* Change this color to your desired hover background color */
+}
+  .animated-navbar {
+    animation: fadeIn 1s ease-out; /* Adjust the animation duration and easing as needed */
+  }
