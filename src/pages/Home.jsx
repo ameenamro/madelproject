@@ -4,14 +4,14 @@ import "../companatscss/Home.css"; // Import your CSS file for styling
 
 function Home() {
   const [photoURLs, setPhotoURLs] = useState([
-    "../src/companatscss/img/carousel-bg-1.jpg",
-    "../src/companatscss/img/carousel-bg-2.jpg",
+    "file:///C:/Users/Hitech/Downloads/car-repair-html-template-freewebsitecode/car-repair-html-template/img/carousel-bg-1.jpg",
+    "file:///C:/Users/Hitech/Downloads/car-repair-html-template-freewebsitecode/car-repair-html-template/img/carousel-bg-1.jpg",
   ]);
 
   const changePhotos = () => {
     const newPhotoURLs = [
-      "../src/companatscss/img/carousel-bg-1.jpg",
-      "../src/companatscss/img/carousel-bg-2.jpg",
+      "file:///C:/Users/Hitech/Downloads/car-repair-html-template-freewebsitecode/car-repair-html-template/img/carousel-bg-1.jpg",
+      "file:///C:/Users/Hitech/Downloads/car-repair-html-template-freewebsitecode/car-repair-html-template/img/carousel-bg-1.jpg",
     ];
 
     setPhotoURLs(newPhotoURLs);
